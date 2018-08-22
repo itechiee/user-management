@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import {Grid, Row, Col} from 'react-bootstrap'; 
-import Signup from './components/Signup'
+import Signup from './components/Signup';
+import Login from './components/Login';
 
 class App extends Component {
   render() {
@@ -10,6 +11,12 @@ class App extends Component {
   <Row className="show-grid">
     <Col xs={12} md={12}>
         <h1>Header</h1>
+    </Col>
+  </Row>
+
+ <Row className="show-grid">
+    <Col xs={12} md={12}>
+        <Login />
     </Col>
   </Row>
 
